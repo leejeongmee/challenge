@@ -1,0 +1,124 @@
+/* css 변수*/
+:root {
+  --header-background-color: #e9ecef;
+}
+
+/*Common*/
+/*css clearfix
+after은 가상요소선택자*/
+
+.clearfix::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+.float--left {
+  float: left;
+}
+.float--right {
+  float: right;
+}
+
+/* header */
+header {
+  display: flex;
+  background-color: var(--header-background-color);
+}
+
+.header-group {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.left-header img {
+  width: 250px;
+  height: auto;
+  margin-left: 20%;
+}
+
+.right-header {
+  margin-right: 5%;
+  width: 170px;
+  height: 100%;
+  display: flex;
+}
+
+.right-header .network-selector {
+  margin-top: 10%;
+  align-items: center;
+  border-radius: 20px;
+  border: 1px solid #868e96;
+  height: 30px;
+  width: 180px;
+  padding: 2px;
+}
+
+.right-header .network-selector select {
+  outline: none !important;
+  border: none !important;
+  width: 80%;
+  height: 100%;
+  background-color: var(--header-background-color);
+  margin-left: 12px;
+}
+
+/* main */
+main {
+  text-align: center;
+}
+
+/* main-top */
+.top {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.top img {
+  width: 100px;
+  height: 100px;
+}
+.top span {
+  margin-top: 10px;
+}
+.top .title {
+  font-size: 25px;
+  font-weight: bolder;
+  color: black;
+}
+.top .title-bottom {
+  color: var(--header-background-color);
+}
+
+/* main-input */
+.main-input input {
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 15px;
+  color: var(--header-background-color);
+  font-size: 15px;
+  outline: none;
+  width: 30%;
+}
+
+button {
+  color: white;
+  background-color: rgba(255, 165, 0, 0.3);
+  border: none;
+  border-radius: 5px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 35%;
+  height: 27px;
+}
+/* main-bottom */
+.bottom span {
+  display: block;
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.bottom-org {
+  color: orange;
+}
