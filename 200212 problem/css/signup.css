@@ -1,0 +1,55 @@
+/* header */
+.header-group img {
+  width: 300px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+/* main */
+main {
+  margin-left: 5%;
+}
+.top span:hover {
+  margin-top: 50px;
+  color: orange;
+  text-decoration: none !important;
+}
+
+.title span {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.main-pwd input {
+  display: block;
+  border: none;
+  border-top: 3px;
+  border-radius: 5px;
+  font-size: 10px;
+  border: 0.5px solid black;
+  width: 350px;
+  height: 30px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.bottom .check-text {
+  color: cornflowerblue;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+button {
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 10px;
+  font-weight: bold;
+  height: 30px;
+  width: 180px;
+  background-color: rgba(100, 149, 237, 0.3);
+}
