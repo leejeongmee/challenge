@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./css/join.css" />
+    <title>mission</title>
+  </head>
+  <body>
+    <header>
+      <div><span class="header-join">회원가입</span></div>
+    </header>
+    <main>
+      <form>
+        <div class="main-input">
+          <div>
+            <span class="main-text">아이디</span>
+            <input
+              type="text"
+              id="'js_id"
+              class="input"
+              onfocus="focusevent(id)"
+              onblur="blurevent(id)"
+            />
+            <span id="js_id_m"></span>
+          </div>
+          <div>
+            <span class="main-text">비밀번호</span>
+            <input
+              type="password"
+              class="input"
+              id="'js_pw"
+              onfocus="focusevent(id)"
+              onblur="blurevent(id)"
+            />
+            <span id="js_pw_m"></span>
+          </div>
+          <div>
+            <span class="main-text">비밀번호 재확인</span>
+            <input
+              type="password"
+              class="input"
+              id="'js_pw_che"
+              onfocus="focusevent(id)"
+              onblur="blurevent(id)"
+            />
+            <span id="js_pw_che_m"></span>
+          </div>
+          <div>
+            <span class="main-text">이름</span>
+            <input
+              type="text"
+              class="input"
+              id="'js_name"
+              onfocus="focusevent(id)"
+              onblur="blurevent(id)"
+            />
+          </div>
+          <div>
+            <span class="main-text">생년월일</span>
+            <input
+              type="text"
+              class="input_year"
+              id="'js_birth_year"
+              placeholder="년(4자)"
+              onfocus="focusevent(id)"
+              onblur="blurevent(id)"
+            />
+            <select class="input_month" id="js_birth_month">
+              <option value="month" selected>월</option>
+              <option value="Jau">1월</option>
+              <option value="Feb">2월</option>
+              <option value="Mar">3월</option>
+              <option value="Apr">4월</option>
+              <option value="May">5월</option>
+              <option value="June">6월</option>
+              <option value="July">7월</option>
+              <option value="Aug">8월</option>
+              <option value="Sep">9월</option>
+              <option value="Oct">10월</option>
+              <option value="Nov">11월</option>
+              <option value="Dec">12월</option>
+            </select>
+            <input
+              type="text"
+              class="input_day"
+              id="'js_birth_day"
+              placeholder="일"
+              onfocus="focusevent(id)"
+              onblur="blurevent(id)"
+            />
+
+            <span id="js_birth_m"> </span>
+          </div>
+          <div>
+            <span class="main-text">성별</span>
+            <select class="input_gender">
+              <option value="Gender" selected>성별</option>
+              <option value="Men">남자</option>
+              <option value="Women">여자</option>
+            </select>
+          </div>
+          <div>
+            <span class="main-text">이메일</span>
+            <input
+              type="text"
+              class="input"
+              id="'js_email"
+              onfocus="focusevent(id)"
+              onblur="blurevent(id)"
+            />
+            <span id="js_email_m"></span>
+          </div>
+          <div>
+            <span class="main-text">휴대전화</span>
+            <input
+              type="text"
+              class="input"
+              id="'js_pnum"
+              placeholder="-없이 입력해주세요. 예) 0101231234"
+              onfocus="focusevent(id)"
+              onblur="blurevent(id)"
+            />
+            <span id="js_pnum_m"></span>
+          </div>
+          <div>
+            <span class="main-text">관심사</span>
+            <input
+              type="text"
+              class="input"
+              id="'js_inter"
+              onfocus="focusevent(id)"
+              onblur="blurevent(id)"
+            />
+            <span id="js_inter_m"></span>
+          </div>
+          <div>
+            <span><a href="#">약관에 동의합니다.</a></span>
+            <input type="checkbox" disabled="true" />
+          </div>
+          <div>
+            <button class="reset-button" id="'js_reset">초기화</button>
+            <input
+              type="submit"
+              class="join-button"
+              id="'js_submit"
+              value="가입하기"
+            />
+          </div>
+        </div>
+      </form>
+    </main>
+    <script src="js/join.js"></script>
+    <script src="js/event.js"></script>
+    <!-- <footer></footer> -->
+  </body>
+</html>
