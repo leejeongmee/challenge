@@ -1,0 +1,80 @@
+/* 전체 */
+body {
+  background-color: rgb(243, 243, 243);
+}
+/* header */
+header {
+  text-align: center;
+}
+.header-join {
+  color: rgb(46, 170, 46);
+  font-weight: bolder;
+  display: block;
+  margin-bottom: 10px;
+}
+/* main */
+main {
+  text-align: center;
+}
+
+/* main input:focus {
+  border-color: #8ce36f;
+} */
+
+/* main-글씨 */
+.main-text {
+  display: block;
+  font-weight: bolder;
+  text-align: left;
+  font-size: 15px;
+  margin-bottom: 3px;
+  margin-left: 38%;
+}
+/* main 입력 */
+.input {
+  margin-bottom: 5px;
+  width: 330px;
+  height: 25px;
+}
+/* main 생년월일(년) */
+.input_year {
+  width: 105px;
+  height: 25px;
+  margin-bottom: 5px;
+}
+
+/* main 생년월일(월) */
+.input_month {
+  width: 105px;
+  height: 32px;
+  margin-bottom: 5px;
+}
+
+/* main 생년월일(일) */
+.input_day {
+  width: 105px;
+  height: 25px;
+  margin-bottom: 5px;
+}
+/* main 성별 */
+.input_gender {
+  width: 330px;
+  height: 32px;
+  margin-bottom: 5px;
+}
+/* main 초기화,가입하기 버튼 */
+button {
+  color: white;
+  border: none;
+  width: 165px;
+  height: 30px;
+  background-color: rgb(46, 170, 46);
+}
+
+.join-button {
+  color: white;
+  border: none;
+  width: 165px;
+  height: 30px;
+  background-color: rgb(46, 170, 46);
+}
